@@ -9,10 +9,10 @@ import Feature_ellipse from '../../assets/images/png/feature-ellipse.png'
 
 const OurFirm = () => {
     return (
-        <div className='pb-[103px] pt-[140px] relative'>
+        <div className='lg:pb-[103px] pb-20 lg:pt-[140px] pt-20 relative'>
             <div className="container max-w-[988px]">
                 <ArrowText Text='Our firm in the news' />
-                <div className='flex items-center gap-6 pt-12 justify-center'>
+                <div className='flex items-center gap-6 pt-12 justify-center flex-wrap'>
                     <img className='w-[210px] h-[120px] hover:shadow-feature-shadow transition-all duration-300' src={Time} alt="Fox News" />
                     <img className='w-[210px] h-[120px] hover:shadow-feature-shadow transition-all duration-300' src={New_York} alt="Nbc News" />
                     <img className='w-[210px] h-[120px] hover:shadow-feature-shadow transition-all duration-300' src={Today} alt="Nbc News" />

@@ -12,7 +12,7 @@ const California = () => {
         backgroundRepeat: "no-repeat",
     };
     return (
-        <div style={CaliforniaBg} className='pt-14 pb-[74px] relative'>
+        <div style={CaliforniaBg} className='pt-14 lg:pb-[74px] pb-14 relative'>
             <div className="container">
                 <Heading className='text-white max-w-[900px] mx-auto text-center' blackText='Contact Our&nbsp;' orangeText='California Sexual Abuse ' blackTextOne='Attorneys Today!' />
                 <div className="flex flex-wrap justify-center items-center gap-6 w-full pt-10">

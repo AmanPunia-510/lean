@@ -6,7 +6,7 @@ const Button = ({
     className,
 }) => {
     return (
-        <button className={`${className} font-medium text-lg leading-150 text-white bg-[#2B587F] rounded-[500px] px-[33px] py-[18px] ${TextClass}`}>
+        <button className={`${className} font-medium md:text-lg text-base leading-150 text-white bg-[#2B587F] rounded-[500px] px-[33px] py-[18px] ${TextClass}`}>
             {Text}
         </button>
     );

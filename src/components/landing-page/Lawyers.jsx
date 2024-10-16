@@ -25,8 +25,8 @@ const Lawyers = () => {
                         blackTextClass={paragraph.blackTextClass}
                     />
                 ))}
-                <div className='flex justify-center mt-12'>
-                    <Button Text='Request A Free Consultation' />
+                <div className='flex justify-center lg:mt-12 md:mt-6 mt-0'>
+                    <Button className="lg:px-8 !px-6 max-lg:!py-3 mt-9" Text='Request A Free Consultation' />
                 </div>
             </div>
             <img className='size-[129px] absolute top-12 left-[66px] pointer-events-none' src={Lawyer_Rounded} alt="Lawyer_Rounded" />

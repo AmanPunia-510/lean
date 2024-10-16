@@ -1,13 +1,13 @@
 import React from 'react'
 import ArrowText from '../common/ArrowText'
 import Heading from '../common/Heading'
-import {Choose_Us} from '../../utils/helper'
+import { Choose_Us } from '../../utils/helper'
 import Choose_Us_Img from '../../assets/images/png/choose-us.png'
 
 const Choose = () => {
     return (
         <div className='relative'>
-            <div div className='container pt-24 pb-[124px]' >
+            <div div className='container lg:pt-24 md:pt-16 sm:pt-10 pt-0 lg:pb-[124px] md:pb-16 sm:pb-10 pb-0' >
                 <ArrowText Text='WHY CHOOSE US' />
                 <Heading className='text-center pt-3' blackText='What&nbsp;' orangeText='Sets Us&nbsp;' blackTextOne='Apart' />
                 <div className='flex items-center justify-center max-lg:flex-wrap gap-6 pt-[52px]'>

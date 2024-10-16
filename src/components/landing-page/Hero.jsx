@@ -13,23 +13,23 @@ const Hero = () => {
     return (
         <div style={Hero_Bg}>
             <NavBar />
-            <div className="container pt-[106px] pb-12">
+            <div className="container lg:pt-[106px] pt-20 pb-12">
                 <div className='relative'>
-                    <h2 className='font-Bahnschrift text-nowrap text-custom-6xl font-bold text-white leading-120'>America’s Leading</h2>
-                    <img className='top-[30px] xl:top-0 left-[664px] absolute w-[150px] xl:w-[385px] xl:h-[121px]' src={Hero_Heading_Image} alt="heroHeadingImage" />
+                    <h2 className='font-Bahnschrift text-nowrap lg:text-custom-6xl md:text-5xl text-custom-3xl font-bold text-white leading-120'>America’s Leading</h2>
+                    <img className='top-[30px] xl:top-0 lg:left-[664px] sm:left-[430px] max-sm:hidden absolute w-[150px] xl:w-[385px] xl:h-[121px]' src={Hero_Heading_Image} alt="heroHeadingImage" />
                 </div>
-                <h2 className='font-Bahnschrift text-custom-6xl font-bold text-white leading-120'><span className='text-primary-color font-light font-Bahnschrift'>Sexual Abuse&nbsp;</span>Law Firm</h2>
+                <h2 className='font-Bahnschrift ld:text-custom-6xl md:text-5xl text-custom-3xl font-bold text-white leading-120'><span className='text-primary-color font-light font-Bahnschrift'>Sexual Abuse&nbsp;</span>Law Firm</h2>
                 <div className="flex items-center max-lg:flex-wrap mt-9 gap-11">
                     <div className='lg:max-w-[386px] w-full'>
                         <Paragraph blackText={'We are one of the nation’s leading law firms for representing survivors of sexual violence. our renowned sexual abuse attorneys are not afraid to stand up to any institution.'} />
                         <img className='w-[193px] mt-6' src={Straight_Line} alt="straightLine" />
-                        <Button className='px-8 mt-9' Text='Request A Free Consultation' />
+                        <Button className='lg:px-8 !px-6 max-lg:!py-3 mt-9' Text='Request A Free Consultation' />
                     </div>
                     <div className='w-full lg:max-w-[710px]' >
                         <div className='relative'>
                             <img className='w-full h-[377px] relative z-10 object-cover object-center' src={Weigh_Image} alt="WeighImage" />
                             <img className='h-[51px] w-[51px] absolute top-1/2 left-1/2 -translate-y-1/2 -translate-x-1/2 cursor-pointer z-20' src={Pause_Svg} alt="PauseSvg" />
-                            <img className='absolute -right-7 -top-2' src={Hero_Dots} alt="HeroDots" />
+                            <img className='absolute lg:-right-7 -right-5 -top-2' src={Hero_Dots} alt="HeroDots" />
                         </div>
                     </div>
                 </div>

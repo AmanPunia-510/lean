@@ -12,7 +12,7 @@ const Feature = () => {
         <div className='py-20 relative'>
             <div className="container max-w-[988px]">
                 <ArrowText Text='FEATURED ON' />
-                <div className='flex items-center gap-6 pt-12 justify-center'>
+                <div className='flex items-center gap-6 pt-12 justify-center flex-wrap'>
                     <img className='w-[210px] h-[120px] hover:shadow-feature-shadow transition-all duration-300' src={Fox_News} alt="Fox News" />
                     <img className='w-[210px] h-[120px] hover:shadow-feature-shadow transition-all duration-300' src={Nbc_News} alt="Nbc News" />
                     <img className='w-[210px] h-[120px] hover:shadow-feature-shadow transition-all duration-300' src={Minutes_img} alt="Minutes img" />

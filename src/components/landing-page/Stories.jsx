@@ -13,6 +13,22 @@ function Stories() {
         slidesToShow: 3,
         slidesToScroll: 1,
         ArrowText: false,
+        responsive: [
+            {
+                breakpoint: 1024,
+                settings: {
+                    slidesToShow: 2,
+                    slidesToScroll: 1,
+                }
+            },
+            {
+                breakpoint: 768,
+                settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1,
+                }
+            }
+        ]
     };
     const previousSlide = () => {
         sliderRef.current.slickPrev();
@@ -48,11 +64,11 @@ function Stories() {
                 ))}
             </Slider>
             <div
-                className="absolute top-[65%] -left-12 transform -translate-y-1/2 bg-blue-color text-white p-2 rounded-full cursor-pointer z-10" onClick={previousSlide}>
+                className="absolute top-[65%] xl:-left-12 left-0 transform -translate-y-1/2 bg-blue-color text-white p-2 rounded-full cursor-pointer z-10" onClick={previousSlide}>
                 <ICON_DATA icons='prevArrow' />
             </div>
             <div
-                className="absolute top-[65%] -right-12 transform -translate-y-1/2 bg-blue-color text-white p-2 rounded-full cursor-pointer z-10" onClick={nextSlide}>
+                className="absolute top-[65%] xl:-right-12 right-0 transform -translate-y-1/2 bg-blue-color text-white p-2 rounded-full cursor-pointer z-10" onClick={nextSlide}>
                 <ICON_DATA icons='nextArrow' />
             </div>
         </div>
