@@ -24,7 +24,7 @@ function Stories() {
         <div className="container relative">
             <ArrowText Text='OUR BLOGS' />
             <Heading className='text-center pt-3' blackText='In the Spotlight: ' orangeText='Featured ' blackTextOne='Stories' />
-            <Slider ref={sliderRef} {...settings} className="overflow-hidden pt-[67px]">
+            <Slider ref={sliderRef} {...settings} className="overflow-hidden pt-[67px] stories-slider">
                 {Stories_Slider.map((obj, index) => (
                     <div className="p-[11.5px] border border-[#0000001A] rounded-[4px] w-full" key={index}>
                         <img className="w[341px] h-[225px] object-cover object-center" src={obj.image} alt={obj.alt} />

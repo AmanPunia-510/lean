@@ -10,15 +10,15 @@
 .font-Bahnschrift {
   font-family: "Bahnschrift";
 }
-.slick-track {
+.stories-slider .slick-track {
   display: flex !important;
 }
-.slick-slide {
+.stories-slider .slick-slide {
   margin: 0 12px;
 }
-.slick-list {
+.stories-slider .slick-list {
   margin: 0 -12px;
 }
-.slick-arrow{
+.stories-slider .slick-arrow {
   display: none !important;
 }
